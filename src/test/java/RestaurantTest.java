@@ -16,6 +16,7 @@ class RestaurantTest {
         restaurant = new Restaurant("Amelie's cafe", "Chennai", openingTime, closingTime);
         restaurant.addToMenu("Sweet corn soup", 119);
         restaurant.addToMenu("Vegetable lasagne", 269);
+		
     }
 
     //>>>>>>>>>>>>>>>>>>>>>>>>>OPEN/CLOSED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
