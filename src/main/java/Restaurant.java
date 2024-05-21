@@ -71,7 +71,8 @@ public class Restaurant {
         return name;
     }
 
-    public int getOrderValue(String[] itemNames) {
+    public int getOrderValue(String[] itemNames) 
+	{
         int total = 0;
         for (String itemName : itemNames) {
             Item item = findItemByName(itemName);

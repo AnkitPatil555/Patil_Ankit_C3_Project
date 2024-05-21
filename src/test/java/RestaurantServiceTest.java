@@ -17,8 +17,7 @@ class RestaurantServiceTest {
         LocalTime closingTime = LocalTime.parse("22:00:00");
         restaurant = service.addRestaurant("Amelie's cafe", "Chennai", openingTime, closingTime);
         restaurant.addToMenu("Sweet corn soup", 119);
-        restaurant.addToMenu("Vegetable lasagne", 269);
-		
+        restaurant.addToMenu("Vegetable lasagne", 269);		
     }
     //>>>>>>>>>>>>>>>>>>>>>>SEARCHING<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
